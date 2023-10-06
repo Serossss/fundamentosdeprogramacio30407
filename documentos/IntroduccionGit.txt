@@ -1,0 +1,63 @@
+GIT SISTEMA DE CONTROL DE VERSIONES.
+
+pasos para configurar git por primera vez:
+
+1. git config --global user.name "nombre completo"
+2. git config user.name (para verificar que usuario tenemos)
+3. git config user.email "usuario del correo que tenemos en git hub preferiblemente"
+4. git user.email (para verficar que email tenemos)
+5. git config --global core.editor "code --wait"// Este comando permite que la terminal se quede esperando hasta que nosotros cerremos el editor de texto
+6. git config --global -e //esto permite abrir nuestro editor y permanece así hasta que lo cerremos.
+7. git config --global core.autocrlf true // ojo solamente para usuarios de Windows 
+8. git config --global core.autocrlf input // ojo solamente para usuarios de linux 
+====================================================================================
+ALGUNOS COMANDOS BASICOS:
+
+
+01. git config -h // nos deja ver la lista de todas las configuraciones de git.
+02. ls //nos permite ver todas las carpetas y los archivos de nuestro directorio.
+03. ls -a // permite ver todos los archivos que se encuentren ocultos.
+04. pwd // permite ver en que directorio nos encontramos.
+05. cd // nos permite regresar al directorio inmediatamente anterior o lo nombran textualmente.
+06. cd .. // nos permite devolvernos a la carpeta o directorio de nuestros archivos en la jerarquía.
+07. mkdir se escribe el nombre de la carpeta a crear // Para crear una carpeta o un directorio.
+08. git init // para inicializar un repositorio completamente vacío dentro los serví  de git.
+09. git status // para ver todos los archivos que se encuentran abiertos sin guardar.(aparecen en color rojo)
+10. git add . // Con le punto se agregan todos los archivos. o en su defecto
+11. git add nombredelarchivo.tal
+12. git status // debe de aparecer en color verde (este paso es opcional)
+13. git commit -m "Aquí se escribe un comentario acorde a lo que se hizo en el directorio"
+14. git push // como su nombre lo indica obliga a que se suban y se alojen los códigos a nuestro repositorio de git hub.
+15. rm nombredelarchivo.tal //n como su nombre lo indica eliminar ese archivo o directorio.
+16. git restore --stage nombredelarchivo.tal // para recuperar el archivo que fue eliminado.
+17. mv nombredelarchivo.tal (hacia donde lo queremos mover) archivo.tal // sirve para editar lso nombres de los archivos
+18. git ignore // sirve para que no se muestren ninguna clase de archivos al repositorio.
+19. git status -s // nos permite ver cada uno de los archivos que son ignorados; esto nos sirve para aderir el archivo que deseamos agregar realmente a nuestro repositorio.
+20. git diff // nos muestra todo el texto de los cambiosque nosotros podamos agregar (git add .)
+21. git --sataged/ para solamente los archivos y su etado.
+22. git log --oneline (para ver el historial de los commit anterior) aparecen unos numeros y letras de color diferente  al lado derecho lo que significa que es un sólo registro para ese commit con su respetivo mensaje o comentario.
+23. git log --stat//para ver las estadísticas del commit de autor; cuantas lineas en la estructura HTML.
+24. git log checkout //aqui se escribe sin las comillas el commit que se quiere eiminar o corregir" pero ojo al eliminar el commit.
+
+===================================================================================================================================
+RAMAS DE GIT
+
+1. git branch (o sea las ramas) que se han hecho en el código en el tiempo. y nos debe de aparecer (main)
+2. cat nombredelarchivo.tal // para ver el contenido de nuestro archivo
+2. git checkout master (main)
+3. git chekout -b ramafooter (como se quiera llamar a esa rama)
+4. git chekout main (master) para regresar a la rama principal pues nos encontrabamos en ramafooter.
+5. git log (nos muestra lo que se ha hecho en la rama main)
+6. git merch ramafooter (para unir la ramafooter y la rama main)
+7. git branch -d y el nombre de la rama para elminarla.
+
+====================================================================================================================================
+CONFIGURAR GITHUB
+
+1. Crear una cuenta en github llenar los datos.
+2. extraído de: https://www.youtube.com/watch?v=VdGzPZ31ts8
+
+
+
+
+
