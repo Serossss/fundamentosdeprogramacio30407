@@ -39,7 +39,7 @@ main {
 .destino {
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #fff;
+    background-color: #469392;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -51,6 +51,6 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #b64242;
   border: #57d6bb;
 }
