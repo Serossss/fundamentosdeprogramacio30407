@@ -6,12 +6,12 @@ body, h1, h2, h3, p {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #c19898;
+    background-color: #ffffff;
 }
 
 header {
-    background-color: #b81b16;
-    color: #c09b9b;
+    background-color: #0a22f8;
+    color: #000000;
     padding: 20px;
     text-align: center;
 }
@@ -19,7 +19,7 @@ header {
 nav ul {
     list-style: none;
     text-align: center;
-    background-color: #159607;
+    background-color: #20d90c;
     padding: 10px;
 }
 
