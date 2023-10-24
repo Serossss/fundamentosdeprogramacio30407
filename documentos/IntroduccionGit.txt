@@ -33,7 +33,7 @@ ALGUNOS COMANDOS BASICOS:
 17. mv nombredelarchivo.tal (hacia donde lo queremos mover) archivo.tal // sirve para editar lso nombres de los archivos
 18. git ignore // sirve para que no se muestren ninguna clase de archivos al repositorio.
 19. git status -s // nos permite ver cada uno de los archivos que son ignorados; esto nos sirve para aderir el archivo que deseamos agregar realmente a nuestro repositorio.
-20. git diff // nos muestra todo el texto de los cambiosque nosotros podamos agregar (git add .)
+20. git diff ITI// nos muestra todo el texto de los cambiosque nosotros podamos agregar (git add .)
 21. git --sataged/ para solamente los archivos y su etado.
 22. git log --oneline (para ver el historial de los commit anterior) aparecen unos numeros y letras de color diferente  al lado derecho lo que significa que es un sólo registro para ese commit con su respetivo mensaje o comentario.
 23. git log --stat//para ver las estadísticas del commit de autor; cuantas lineas en la estructura HTML.
