@@ -1,5 +1,9 @@
 /* Reset de estilos básicos */
-body, h1, h2, h3, p {
+body,
+h1,
+h2,
+h3,
+p {
     margin: 0;
     padding: 0;
 }
@@ -27,6 +31,7 @@ nav li {
     display: inline;
     margin-right: 20px;
 }
+
 nav a {
     text-decoration: none;
     color: #131313;
@@ -52,5 +57,5 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #259913;
-  border: #024e3d;
+    border: #024e3d;
 }
