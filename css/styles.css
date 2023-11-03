@@ -1,12 +1,16 @@
 /* Reset de estilos básicos */
-body, h1, h2, h3, p {
+body,
+h1,
+h2,
+h3,
+p {
     margin: 0;
     padding: 0;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 }
 body {
     background-image: url('fondo.jpg'); /* Reemplaza 'fondo.jpg' con el nombre de tu imagen de fondo */
@@ -16,8 +20,8 @@ body {
 
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #0a22f8;
+    color: #000000;
     padding: 20px;
     text-align: center;
 }
@@ -25,7 +29,7 @@ header {
 nav ul {
     list-style: none;
     text-align: center;
-    background-color: #444;
+    background-color: #20d90c;
     padding: 10px;
 }
 
@@ -33,9 +37,10 @@ nav li {
     display: inline;
     margin-right: 20px;
 }
+
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #131313;
 }
 
 main {
