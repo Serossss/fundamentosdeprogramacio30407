@@ -8,6 +8,12 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
+body {
+    background-image: url('fondo.jpg'); /* Reemplaza 'fondo.jpg' con el nombre de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
+    background-position: center; /* Centra la imagen en el cuerpo */
+}
+
 
 header {
     background-color: #333;
@@ -39,7 +45,7 @@ main {
 .destino {
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #fff;
+    background-color: #469392;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -51,6 +57,6 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #b64242;
   border: #57d6bb;
 }
