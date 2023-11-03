@@ -1,5 +1,9 @@
 /* Reset de estilos básicos */
-body, h1, h2, h3, p {
+body,
+h1,
+h2,
+h3,
+p {
     margin: 0;
     padding: 0;
 }
@@ -8,7 +12,17 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
 }
+body {
+    background-image: url('fondo.jpg'); /* Reemplaza 'fondo.jpg' con el nombre de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
+    background-position: center; /* Centra la imagen en el cuerpo */
+}
 
+
+.section {
+    background-image: url(../imagenes/ALEGRIA.jpeg);
+     background-repeat: no-repeat;
+}
 header {
     background-color: #0a22f8;
     color: #000000;
@@ -27,6 +41,7 @@ nav li {
     display: inline;
     margin-right: 20px;
 }
+
 nav a {
     text-decoration: none;
     color: #131313;
@@ -40,7 +55,7 @@ main {
     margin-bottom: 20px;
     padding: 10px;
     background-color: #469392;
-    border: 1px solid #520e0e;
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
 
@@ -51,6 +66,6 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #259913;
-  border: #024e3d;
+    background-color: #b64242;
+  border: #57d6bb;
 }
