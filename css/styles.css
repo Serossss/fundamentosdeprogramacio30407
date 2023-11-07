@@ -19,6 +19,10 @@ body {
 }
 
 
+.section {
+    background-image: url(../imagenes/ALEGRIA.jpeg);
+     background-repeat: no-repeat;
+}
 header {
     background-color: #0a22f8;
     color: #000000;
