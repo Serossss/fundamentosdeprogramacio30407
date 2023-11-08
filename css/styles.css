@@ -26,14 +26,14 @@ body {
 header {
     background-color: #0a22f8;
     color: #000000;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
 }
 
 nav ul {
     list-style: none;
     text-align: center;
-    background-color: #20d90c;
+    background-color: #b64242;
     padding: 10px;
 }
 
