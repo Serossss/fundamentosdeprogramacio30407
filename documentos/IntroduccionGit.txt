@@ -3,12 +3,12 @@ GIT SISTEMA DE CONTROL DE VERSIONES.
 pasos para configurar git por primera vez:
 
 1. git config --global user.name "nombre completo"
-2. git config user.name (para verificar que usuario tenemos)
+2.global user.name "nombre completo"(para verificar que usuario tenemos)
 3. git config user.email "usuario del correo que tenemos en git hub preferiblemente"
 4. git user.email (para verficar que email tenemos)
 5. git config --global core.editor "code --wait"// Este comando permite que la terminal se quede esperando hasta que nosotros cerremos el editor de texto
 6. git config --global -e //esto permite abrir nuestro editor y permanece así hasta que lo cerremos.
-7. git config --global core.autocrlf true // ojo solamente para usuarios de Windows 
+7. e.autogit config --global corcrlf true // ojo solamente para usuarios de Windows 
 8. git config --global core.autocrlf input // ojo solamente para usuarios de linux 
 ====================================================================================
 ALGUNOS COMANDOS BASICOS:
