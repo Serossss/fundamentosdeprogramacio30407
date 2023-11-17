@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  
+<title>Bogota</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #3d3636;
+            color: #fff;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            
+            
+<ul>
+
+<li><a href="https://bogota.gov.co/mi-ciudad/cultura-recreacion-y-deporte/historia-de-bogota-recorrido-por-la-historia-de-la-ciudad-de-bogota" target="_blank">Historia y Cultura sobre la Hermosa Ciudad de Bogota</a></li>
+<li><a href="https://www.booking.com/romantic/region/rs/tara-planina.es.html?aid=2276840&label=msn-I5cJBkVk%2AW8laTQVC7OmGQ-80264491273973%3Atikwd-80264640289278%3Aloc-43%3Aneo%3Amtb%3Alp148276%3Adec%3Aqssitios%20tur%C3%ADsticos&utm_campaign=Serbia%202&utm_medium=cpc&utm_term=I5cJBkVk%2AW8laTQVC7OmGQ&msclkid=9d76363200e21ef02dff5364c06771e3&utm_source=bing&keep_landing=1&sid=b54dec47d709a9e19db54c1a46a412b2" target="_blank">Citios Turisticos</a></li>
+<li><a href="https://www.eltiempo.com/bogota/leyendas-urbanas-de-bogota-que-recorren-la-capital-627115" target="_blank">mitos y leyendas sobre Bogota</a></li>               
+<li><a href="https://estudiar.unir.net/co/co-gen-ma-gene-universidad-virtual-ltm/?utm_source=BING&utm_medium=Search&utm_campaign=UNIREU_LT_CO_X_X_Mix_X_X_NOMAR_X_LWEB_GLOB_CO_AREA-VERT_AO_BING_BUS_GEN_X_UNIVERSIDAD&utm_content=CO_CO_X_X_Mix_X_X_NOMAR_BUSQ_Universidad_TXT_CPC_BING_MIX_X_X_X&bi_campaignid=434123591&bi_adgroupid=1243548284392385&msclkid=a4fa244025d8102d2de541169a2a64e9&utm_term=universidades%20en%20bogota" target="_blank">Universidades de Bogota</a></li>   
+<li><a href="https://supercurioso.com/datos-curiosos-de-bogota/">Curiocidades sobre Bobogota</a></li>  
+<li><a href="https://www.tripadvisor.co/Restaurants-g294074-Bogota.html" target="_blank">Donde Comer</a></li>
+<li><a href="https://www.nh-hotels.com/co/hoteles/bogota?campid=8435708&gclid=1499f10969501c3091ab945fd6d399d5&gclsrc=3p.ds&msclkid=1499f10969501c3091ab945fd6d399d5" target="_blank">Donde Hospedarse</a></li>
+            </ul>
+        </nav>
+    
+    </head
+</header>
+    <h1>Destino Bogota</h1>
+    <!-- Reemplaza "ruta_de_la_imagen.jpg" con la URL o la ruta de tu imagen -->
+    <img src="../imagenes/bogota.jpeg" alt="cartagena">
+</body>
+</html>
