@@ -1,86 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style> body {
-        font-family: Arial, sans-serif;
-        background-color: #f7f7f7;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-    }
+    <title>Medellín - La Ciudad de la Eterna Primavera</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
 
-    h1 {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-        margin: 0;
-    }
+        h1 {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            margin: 0;
+        }
 
-    nav {
-        background-color: #333;
-        color: #fff;
-        padding: 10px;
-        text-align: center;
-    }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
 
-    nav a {
-        text-decoration: none;
-        color: #fff;
-        margin: 0 10px;
-    }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 10px;
+        }
 
-    img {
-        width: 100%;
-        max-width: 800px;
-        height: auto;
-        margin-top: 20px;
-    }
+        img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .gallery a {
+            flex: 0 0 48%; /* Ajusta el ancho de las imágenes según tus preferencias */
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .site-link {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .gallery a:hover .site-link {
+            opacity: 1;
+        }
     </style>
 </head>
 <body>
-    <h1>bienvenido a la ciudad de la eterna primavera</h1>
-    <p>espero disfrutes de el contenido de esta ciudad</p>
-    <header>
+    <h1>Bienvenido a la ciudad de la eterna primavera</h1>
+    <p>Espero que disfrutes del contenido de esta ciudad</p>
+    <nav>
         <ul>
-            <nav>
-    <li><a href="https://tipsparatuviaje.com/lugares-turisticos-de-medellin/#:~:text=28%20lugares%20tur%C3%ADsticos%20de%20Medell%C3%ADn%20que%20tienes%20que,...%208%208.%20Cerro%20Nutibara%20...%20M%C3%A1s%20elementos"target="_blank">lugares turisticos</a></li>
-    <li><a href="https://es.wikipedia.org/wiki/Medell%C3%ADn"target="_blank">acerca de medellin</a></li>
-    <li><a href="https://www.lifeder.com/comidas-tipicas-antioquia/"target="_blank">comida tipica</a></li>
-    <img src="https://1.bp.blogspot.com/-SIZLDnIclho/YAi7kJEIAeI/AAAAAAAAAJs/cqFtTApex8Ud-d0rrqFIY4YQZm7bUmdFgCLcBGAsYHQ/w945-h600-p-k-no-nu/Plaza-Botero-Medellin-Colombia.jpg" alt="medallo">
-</nav>
-</ul>
-</header>
+            <li><a href="https://tipsparatuviaje.com/lugares-turisticos-de-medellin/#:~:text=28%20lugares%20tur%C3%ADsticos%20de%20Medell%C3%ADn%20que%20tienes%20que,...%208%208.%20Cerro%20Nutibara%20...%20M%C3%A1s%20elementos" target="_blank">Lugares Turísticos</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Medell%C3%ADn" target="_blank">Acerca de Medellín</a></li>
+            <li><a href="https://www.lifeder.com/comidas-tipicas-antioquia/" target="_blank">Comida Típica</a></li>
+        </ul>
+    </nav>
+
     <section>
-        
-        
-<p>Medellín, la ciudad de la eterna primavera, es conocida por su clima agradable y su rica cultura. Descubre algunos de los sitios turísticos:</p>
-        
-        
-<div class="gallery">
-            
- 
-<a href="https://www.medellin.travel/es/" target="_blank">
-                <img src="url_de_la_imagen_1.jpg" alt="Sitio Turístico 1">
-                
-       
-<span class="site-link">Oficina de Turismo de Medellín</span>
-            
-        
-</a>
+        <p>Medellín, la ciudad de la eterna primavera, es conocida por su clima agradable y su rica cultura. Descubre algunos de los sitios turísticos:</p>
+
+        <div class="gallery">
+            <a href="https://www.medellin.gov.co/es/secretaria-desarrollo-economico/subsecretaria-de-turismo/" target="_blank">
+                <img src="https://cdnwordpresstest-f0ekdgevcngegudb.z01.azurefd.net/es/wp-content/uploads/2021/08/portada-secretaria-desarrollo.jpg" alt="Sitio Turístico 1">
+                <span class="site-link">Oficina de Turismo de Medellín</span>
+            </a>
+
             <a href="https://www.parqueexplora.org/" target="_blank">
-                
- 
-<img src="url_de_la_imagen_2.jpg" alt="Sitio Turístico 2">
+                <img src="https://i.ytimg.com/vi/VfFezfT0pCU/maxresdefault.jpg" alt="Sitio Turístico 2">
                 <span class="site-link">Parque Explora</span>
             </a>
+
             <a href="https://comuna13tours.com/" target="_blank">
-                <img src="url_de_la_imagen_3.jpg" alt="Sitio Turístico 3">
+                <img src="https://s3.amazonaws.com/rtvc-assets-senalcolombia.gov.co/s3fs-public/inline-images/comuna-13-historia-turismo-4.jpg" alt="Sitio Turístico 3">
                 <span class="site-link">Comuna 13 Tours</span>
             </a>
-        
         </div>
     </section>
 </body>
